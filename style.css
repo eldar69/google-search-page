@@ -74,6 +74,29 @@ ul {
   color: #101120;
 }
 
+.settings {
+  margin-left: auto;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icons flex
+.apps {
+  margin-left: auto;
+}
+
+.circle {
+  margin-left: 1em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5a76d7;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
