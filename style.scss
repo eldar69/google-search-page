@@ -24,7 +24,7 @@ $border-color: #9e9e9e;
     
     }
     .container {
-        max-width: 1500px;
+        max-width: 1800px;
          margin: 0 auto;
         }
 
@@ -74,12 +74,14 @@ $border-color: #9e9e9e;
        
     }
     .settings {
-        margin-left: auto;
+        margin-left: auto !important;
     }
 .icons {
         display: flex;
         margin-left:auto;
-    
+    i {
+        align-self: center;
+    }
 }
  
    .circle {
@@ -88,6 +90,7 @@ $border-color: #9e9e9e;
     height: 50px;
     border-radius: 50%;
     background-color: $primary-color;
+    align-self: center
 }
     .grid{
         @include gridLayout;
@@ -119,6 +122,11 @@ $border-color: #9e9e9e;
     .text {
         margin-top: 5px;
         margin-bottom: 1em;
+    }
+
+    .bold {
+        font-weight: bold;
+        font-size:20px  !important
     }
    
     

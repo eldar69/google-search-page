@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ ul {
 }
 
 .settings {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .icons {
@@ -85,12 +85,21 @@ ul {
   margin-left: auto;
 }
 
+.icons i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .circle {
   margin-left: 1em;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #5a76d7;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .grid {
@@ -126,5 +135,10 @@ h3 {
 .text {
   margin-top: 5px;
   margin-bottom: 1em;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px  !important;
 }
 /*# sourceMappingURL=style.css.map */
