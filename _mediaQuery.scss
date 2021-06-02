@@ -1,0 +1,155 @@
+/* mobile */
+
+.container {
+    margin: 0 auto;
+}
+
+@media (min-width: 410px) {
+    .container {
+        max-width: 415px;
+        .grid {
+            display: grid;
+            grid-template-columns:0.2fr 8fr 1fr ;
+        } 
+        }
+    }
+    header {
+        .header  {
+            display: flex;
+            flex-direction: column;
+            // margin: 0;
+          .menu {
+              display: none;
+          }  
+       
+    }
+    .searchBar {
+        width: 100%;
+        padding: 12px 100px;
+       
+      }
+     .icons {
+         order: -1;
+         i {
+             display: none;
+         }
+     }
+     img {
+        margin: 0 auto;
+    }
+   
+    
+}
+
+@media (min-width: 512px) {
+    .container {
+        max-width: 495px;
+        .menu {
+            display: flex !important;
+
+            i {
+                display: none;
+            }
+        }
+        .settings {
+            padding-left: .5em;
+        }
+    }
+  
+}
+
+
+/* ipad */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+        .form.container {
+            margin: 0;
+            
+        } 
+        .menu {
+            i {
+                display: contents;
+            
+            }
+        }
+       .icons {
+           i {
+               display: block;
+           }
+       }
+    }
+
+}
+
+
+/* laptop */
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+        .icons {
+            order: 1;
+            display: flex;
+           i {
+            display: block;
+            
+            }
+        }
+       
+        .grid {
+            display: grid;
+            grid-template-columns: 0.2fr 1fr 0.5fr;
+        }
+        img {
+            width: 139px;
+            height: 40px;
+        }
+
+    }
+    header {
+        .header {
+            display: grid !important;
+            grid-template-columns: 0.2fr 1fr 0.5fr ;
+            margin-left: 8px;
+        } 
+
+    }   
+    .searchBar {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
+
+
+/* Desktop - large screen */
+
+@media (min-width: 1200px) {
+    .container {
+        /* max-width: 1170px; */
+        max-width: 1140px;
+        margin-left: 0;
+    }
+  
+}
+
+
+/* Extra large screens, */
+
+@media (min-width: 1522px) {
+    .container {
+        /* max-width: 1170px; */
+        max-width: 1422px;
+        
+    }
+   
+}
+
+@media (min-width: 1800px) {
+    .container {
+        /* max-width: 1170px; */
+        max-width: 1780px;
+    
+    }
+}
