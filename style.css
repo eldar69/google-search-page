@@ -106,6 +106,9 @@ h3 {
 .questions a i {
   margin-left: auto; }
 
+.padding {
+  padding-left: 0.2em; }
+
 /* mobile */
 .container {
   margin: 0 auto; }
