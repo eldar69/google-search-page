@@ -19,7 +19,10 @@
             flex-direction: column;
             // margin: 0;
           .menu {
-              display: none;
+              display: flex;
+              i {
+                  display: none;
+              }
           }  
        
     }
@@ -36,6 +39,9 @@
      }
      img {
         margin: 0 auto;
+    }
+    .rem {
+        display: none;
     }
    
     
@@ -54,7 +60,11 @@
         .settings {
             padding-left: .5em;
         }
+        .rem {
+            display: flex;
+        }
     }
+   
   
 }
 
@@ -70,7 +80,7 @@
         } 
         .menu {
             i {
-                display: contents;
+                display: contents !important;
             
             }
         }
